@@ -1,0 +1,44 @@
+label{
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+    display: none;
+    width: 30px;
+    margin-left: auto;
+}
+#toggle{
+    display: none;
+}
+
+
+@media only screen and (max-width: 1140px){
+    .blueto{
+        display: block;
+        width: 400px;
+        margin-left: auto;
+        border-bottom: 1px solid teal;
+    }
+
+    .blueto:hover{
+            background-color: black;
+            color: white;
+    }
+
+    label{
+        display: block;
+    }
+
+    .behappy{
+        display: none;
+        text-align: center;
+        transition-duration: 1s;
+    }
+
+    #toggle:checked + .behappy{
+        display: block;
+        transition-duration: 1s;
+    }
+
+}
+
+
